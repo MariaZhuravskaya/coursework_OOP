@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kursovay-4"
+version = "0.1.0"
+description = ""
+authors = ["Maria <maria.mandrykina@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kursovay_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+pandas = "^2.0.3"
+xlsxwriter = "^3.1.2"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
